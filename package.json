@@ -1,0 +1,35 @@
+{
+  "name": "zanemilakovic.com",
+  "version": "1.0.0",
+  "description": "Portfolio Site for Zane Milakovic (@khrome83)",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khrome83/zanemilakovic.com.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "Next.js",
+    "React",
+    "Node"
+  ],
+  "author": "Zane C. Milakovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khrome83/zanemilakovic.com/issues"
+  },
+  "homepage": "https://github.com/khrome83/zanemilakovic.com#readme",
+  "dependencies": {
+    "next": "^4.0.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0"
+  }
+}
