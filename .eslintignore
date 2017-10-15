@@ -1,0 +1,8 @@
+# /node_modules/* and /bower_components/* ignored by default
+
+coverage/
+jest/
+.next/
+**/__snapshots__/
+static/js/
+tsconfig.js

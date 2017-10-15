@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index Renders Correctly 1`] = `
+<div>
+  <div
+    className="test"
+  >
+    TESTING
+  </div>
+</div>
+`;
