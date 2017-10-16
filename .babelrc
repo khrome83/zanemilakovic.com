@@ -1,8 +1,14 @@
 {
-  "presets": [["es2015", { "modules": false }], "react"],
-  "env": {
-    "test": {
-      "presets": [["es2015"], "react"]
-    }
-  }
+  "presets": [
+    [
+      "next/babel",
+      {
+        "styled-jsx": {
+          "plugins": [
+            "styled-jsx-plugin-postcss"
+          ]
+        }
+      }
+    ]
+  ]
 }

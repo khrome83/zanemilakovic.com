@@ -34,9 +34,15 @@
   "homepage": "https://github.com/khrome83/zanemilakovic.com#readme",
   "dependencies": {
     "flow": "^0.2.3",
-    "next": "^4.0.4",
+    "lost": "^8.2.0",
+    "next": "^4.0.5",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
+    "postcss-load-plugins": "^2.3.0",
+    "postcss-nested": "^2.1.2",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "styled-jsx-plugin-postcss": "^0.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.1",
@@ -57,5 +63,13 @@
     "ramda": "^0.25.0",
     "react-test-renderer": "^16.0.0",
     "webpack-bundle-analyzer": "^2.9.0"
+  },
+  "postcss": {
+    "plugins": {
+      "lost": {},
+      "postcss-import": {},
+      "postcss-cssnext": {},
+      "postcss-nested": {}
+    }
   }
 }
