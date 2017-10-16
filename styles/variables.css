@@ -1,0 +1,130 @@
+:root {
+  /* Global Page Styles */
+  --page-background-color: #f7f5f0;
+  --page-font-color-dark: #000;
+  --page-font-color: #555;
+  --page-font-color-light: #6d6e71;
+  --page-link-color: #b81c29;
+  --font-color-framing: color(#fff a(0.5));
+  --outer-padding: 5vw;
+
+  /* Fluid Typograph */
+  --font-size-min: 0.9375;
+  --font-size-max: 1.375;
+
+  /* Content area range for font scaling */
+  --font-breakpoint-min: 20;
+  --font-breakpoint-max: 45;
+  --font-breakpoint-extended: 60;
+  --font-framing-max: 60;
+
+  /* Line Height Min/Max for Body copy */
+  --line-height-min: 1.6;
+  --line-height-max: 2.75;
+  --line-height-calc: calc(var(--line-height-min) * 1rem + (var(--line-height-max) - var(--line-height-min)) * (100vw - var(--font-breakpoint-min) * 1rem) / (var(--font-breakpoint-max) - var(--font-breakpoint-min)));
+
+  /* Line Height Min/Max for Heading copy */
+  --heading-height-min: 1.4;
+  --heading-height-max: 1.7;
+  --heading-height-calc: calc(var(--heading-height-min) * 1rem + (var(--heading-height-max) - var(--heading-height-min)) * (100vw - var(--font-breakpoint-min) * 1rem) / (var(--font-breakpoint-max) - var(--font-breakpoint-min)));
+
+  /* Navigation Sizes */
+  --nav-size-min: 0.9375;
+  --nav-size-max: 1;
+  --nav-size-calc: calc(var(--nav-size-min) * 1rem + (var(--nav-size-max) - var(--nav-size-min)) * (100vw - var(--font-breakpoint-min) * 1rem) / (var(--font-breakpoint-max) - var(--font-breakpoint-min)));
+
+  /* Calculate Fluid Headings Min/Max */
+  /* Uses 1.067 Minor Scale - 1.333 Fourth */
+  --h1-min: 1.296;
+  --h1-max: 3.157;
+  --h1-calc: calc(var(--h1-min) * 1rem + (var(--h1-max) - var(--h1-min)) * (100vw - var(--font-breakpoint-min) * 1rem) / (var(--font-breakpoint-max) - var(--font-breakpoint-min)));
+  --h2-min: 1.215;
+  --h2-max: 2.369;
+  --h2-calc: calc(var(--h2-min) * 1rem + (var(--h2-max) - var(--h2-min)) * (100vw - var(--font-breakpoint-min) * 1rem) / (var(--font-breakpoint-max) - var(--font-breakpoint-min)));
+  --h3-min: 1.138;
+  --h3-max: 1.777;
+  --h3-calc: calc(var(--h3-min) * 1rem + (var(--h3-max) - var(--h3-min)) * (100vw - var(--font-breakpoint-min) * 1rem) / (var(--font-breakpoint-max) - var(--font-breakpoint-min)));
+  --h4-min: 1.067;
+  --h4-max: 1.333;
+  --h4-calc: calc(var(--h4-min) * 1rem + (var(--h4-max) - var(--h4-min)) * (100vw - var(--font-breakpoint-min) * 1rem) / (var(--font-breakpoint-max) - var(--font-breakpoint-min)));
+  --h5-min: 1;
+  --h5-max: 1;
+  --h5-calc: calc(var(--h5-min) * 1rem + (var(--h5-max) - var(--h5-min)) * (100vw - var(--font-breakpoint-min) * 1rem) / (var(--font-breakpoint-max) - var(--font-breakpoint-min)));
+  --h6-min: 0.937;
+  --h6-max: 0.75;
+  --h6-calc: calc(var(--h6-min) * 1rem + (var(--h6-max) - var(--h6-min)) * (100vw - var(--font-breakpoint-min) * 1rem) / (var(--font-breakpoint-max) - var(--font-breakpoint-min)));
+
+  /* Global Nav Styles */
+  --nav-background-color: #fff;
+  --nav-rotation: 45deg;
+
+  /* @apply --fluid-type-calc; */
+  --fluid-type-calc: {
+    font-size: calc(var(--font-size-min) * 1rem + (var(--font-size-max) - var(--font-size-min)) * (100vw - var(--font-breakpoint-min) * 1rem) / (var(--font-breakpoint-max) - var(--font-breakpoint-min)));
+  }
+
+  --nav-fluid-size: {
+    font-size: var(--nav-size-calc);
+  }
+
+  --h1-fluid: {
+    font-size: var(--h1-calc);
+    line-height: calc(var(--h1-calc) + 0.5rem);
+    margin-top: calc((var(--heading-height-calc) - var(--h1-calc)) + var(--heading-height-calc));
+    margin-bottom: var(--heading-height-calc);
+  }
+
+  --h2-fluid: {
+    font-size: var(--h2-calc);
+    line-height: calc(var(--h2-calc) + 0.5rem);
+    margin-top: calc((var(--heading-height-calc) - var(--h2-calc)) + var(--heading-height-calc));
+    margin-bottom: var(--heading-height-calc);
+  }
+
+  --h3-fluid: {
+    font-size: var(--h3-calc);
+    line-height: calc(var(--h3-calc) + 0.5rem);
+    margin-top: calc((var(--heading-height-calc) - var(--h3-calc)) + var(--heading-height-calc));
+    margin-bottom: var(--heading-height-calc);
+  }
+
+  --h4-fluid: {
+    font-size: var(--h4-calc);
+    line-height: calc(var(--h4-calc) + 0.5rem);
+    margin-top: calc((var(--heading-height-calc) - var(--h4-calc)) + var(--heading-height-calc));
+    margin-bottom: var(--heading-height-calc);
+  }
+
+  --h5-fluid: {
+    font-size: var(--h5-calc);
+    line-height: calc(var(--h5-calc) + 0.5rem);
+    margin-top: calc((var(--heading-height-calc) - var(--h5-calc)) + var(--heading-height-calc));
+    margin-bottom: var(--heading-height-calc);
+  }
+
+  --h6-fluid: {
+    font-size: var(--h6-calc);
+    line-height: calc(var(--h6-calc) + 0.5rem);
+    margin-top: calc((var(--heading-height-calc) - var(--h6-calc)) + var(--heading-height-calc));
+    margin-bottom: var(--heading-height-calc);
+  }
+
+  /* @apply --max-content-width; */
+  --max-content-width: {
+    padding: 0 var(--outer-padding);
+    max-width: calc(var(--font-breakpoint-max) * 1rem + (var(--outer-padding) * 2));
+  }
+
+  /* @apply --max-framing-width; */
+  --max-framing-width: {
+    padding: 0 var(--outer-padding);
+    max-width: calc(var(--font-framing-max) * 1rem + (var(--outer-padding) * 2));
+  }
+
+  /* Media Queries */
+  @custom-media --xsmall-viewport (width >= 20rem);
+  @custom-media --small-viewport (width >= 26.25rem);
+  @custom-media --medium-viewport (width >= 35.625rem);
+  @custom-media --large-viewport (width >= 45rem);
+  @custom-media --xlarge-viewport (width >= 60rem);
+}

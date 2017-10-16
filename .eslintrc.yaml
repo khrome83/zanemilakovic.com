@@ -28,12 +28,17 @@ rules:
   function-paren-newline:
     - 0
     - multiline
-  import/extensions: 0
-  import/no-extraneous-dependencies: 0
-  jsx-a11y/no-marquee: 0
   no-plusplus: 0
   no-restricted-syntax:
     - 0
     - ForOfStatement
+  object-curly-newline:
+    - 2
+    - consistent: true
+  import/extensions: 0
+  import/no-extraneous-dependencies: 0
+  jsx-a11y/no-marquee: 0
   react/jsx-filename-extension: 0
   react/react-in-jsx-scope: 0
+  react/jsx-curly-brace-presence: 0
+  react/jsx-closing-tag-location: 0
