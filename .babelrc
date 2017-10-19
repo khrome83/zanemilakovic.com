@@ -1,10 +1,13 @@
 {
   "presets": [
+    "es2015",
+    "react",
     [
       "next/babel",
       {
         "styled-jsx": {
           "plugins": [
+            "styled-jsx-plugin-stylelint",
             "styled-jsx-plugin-postcss"
           ]
         }

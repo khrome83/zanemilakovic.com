@@ -1,11 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Index Renders Correctly 1`] = `
-<div>
+<div
+  className="testing"
+>
   <div
-    className="test"
+    className="test1"
   >
-    TESTING
+    Testing 1
+  </div>
+  <div
+    className="test2"
+  >
+    Testing 2
+  </div>
+  <div
+    className="test3"
+  >
+    Testing 3
+  </div>
+  <div
+    className="test4"
+  >
+    Testing 4
+  </div>
+  <div
+    className="testing"
+  >
+    <span>
+      <span
+        className="testing2"
+      />
+    </span>
   </div>
 </div>
 `;
