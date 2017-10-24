@@ -1,10 +1,10 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { cleanSnapshots } from '../../libs/testUtilities';
-import App from '../../pages/index';
+import Footer from '../../components/Footer';
 
-test('Index Page Renders Correctly', () => {
-  const component = renderer.create(<App />);
+test('Footer renders correctly', () => {
+  const component = renderer.create(<Footer />);
   const tree = component.toJSON();
   cleanSnapshots(tree);
   expect(tree).toMatchSnapshot();

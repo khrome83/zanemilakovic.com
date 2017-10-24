@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`H1 renders correct 1`] = `
+<h1
+  className="heading large"
+  id="foobar"
+>
+  Heading 1
+</h1>
+`;
+
+exports[`H2 renders correct 1`] = `
+<h2
+  className="heading large"
+  id="foobar"
+>
+  Heading 2
+</h2>
+`;
+
+exports[`H3 renders correct 1`] = `
+<h3
+  className="heading large"
+  id="foobar"
+>
+  Heading 3
+</h3>
+`;
+
+exports[`H4 renders correct 1`] = `
+<h4
+  className="heading large"
+  id="foobar"
+>
+  Heading 4
+</h4>
+`;
+
+exports[`H5 renders correct 1`] = `
+<h5
+  className="heading large"
+  id="foobar"
+>
+  Heading 5
+</h5>
+`;
+
+exports[`H6 renders correct 1`] = `
+<h6
+  className="heading large"
+  id="foobar"
+>
+  Heading 6
+</h6>
+`;
+
+exports[`Heading renders Correctly 1`] = `
+<div>
+  <h1
+    className="heading large"
+    id="foobar"
+  >
+    Heading 1
+  </h1>
+  <h2
+    className="heading large"
+    id="foobar"
+  >
+    Heading 2
+  </h2>
+  <h3
+    className="heading large"
+    id="foobar"
+  >
+    Heading 3
+  </h3>
+  <h4
+    className="heading large"
+    id="foobar"
+  >
+    Heading 4
+  </h4>
+  <h5
+    className="heading large"
+    id="foobar"
+  >
+    Heading 5
+  </h5>
+  <h6
+    className="heading large"
+    id="foobar"
+  >
+    Heading 6
+  </h6>
+</div>
+`;

@@ -1,10 +1,10 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { cleanSnapshots } from '../../libs/testUtilities';
-import App from '../../pages/index';
+import Tile from '../../components/Tile';
 
-test('Index Page Renders Correctly', () => {
-  const component = renderer.create(<App />);
+test('Tile renders correctly', () => {
+  const component = renderer.create(<Tile>Test to Render</Tile>);
   const tree = component.toJSON();
   cleanSnapshots(tree);
   expect(tree).toMatchSnapshot();

@@ -1,15 +1,22 @@
-const cleanSnapshots = (obj) => {
-  for (const prop in obj) {
+// @ts-check --jsx
+/* eslint-disable no-param-reassign */
+
+const cleanSnapshots = (node) => {
+  for (const prop in node) {
     if (prop === 'className') {
-      let className = obj[prop].replace(/jsx-[0-9]+[\s]?/g, '');
-      obj.className = className || '';
-      if (!obj.className) {
-        delete obj.className;
+      const className = node[prop].replace(/jsx-[0-9]+[\s]?/g, '');
+      node.className = className || '';
+      if (!node.className) {
+        delete node.className;
       }
-    } else if (typeof obj[prop] === 'object') {
-      cleanSnapshots(obj[prop]);
+    } else if (typeof node[prop] === 'object') {
+      cleanSnapshots(node[prop]);
     }
   }
-}
+};
 
-export { cleanSnapshots };
+const lib = {
+  cleanSnapshots,
+};
+
+export { lib as default, cleanSnapshots };

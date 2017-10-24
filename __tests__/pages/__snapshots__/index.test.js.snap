@@ -1,37 +1,127 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Index Renders Correctly 1`] = `
+exports[`Index Page Renders Correctly 1`] = `
 <div
-  className="testing"
+  className="content"
 >
-  <div
-    className="test1"
+  <section
+    className="header"
   >
-    Testing 1
-  </div>
-  <div
-    className="test2"
+    Header
+  </section>
+  <section
+    className="section masthead"
   >
-    Testing 2
-  </div>
-  <div
-    className="test3"
-  >
-    Testing 3
-  </div>
-  <div
-    className="test4"
-  >
-    Testing 4
-  </div>
-  <div
-    className="testing"
-  >
-    <span>
-      <span
-        className="testing2"
+    <picture>
+      <source
+        media="(max-width: 767px)"
+        sizes="(max-width: 1534px) 100vw, 1534px"
+        srcSet="
+      /static/images/mh,w_320.jpg 320w,
+      /static/images/mh,w_974.jpg 974w,
+      /static/images/mh,w_1430.jpg 1430w,
+      /static/images/mh,w_1534.jpg 1534w
+    "
       />
-    </span>
-  </div>
+      <source
+        media="(min-width: 768px) and (max-width: 991px)"
+        sizes="(max-width: 1982px) 100vw, 1982px"
+        srcSet="
+      /static/images/mh,w_768.jpg 768w,
+      /static/images/mh,w_1309.jpg 1309w,
+      /static/images/mh,w_1758.jpg 1758w,
+      /static/images/mh,w_1982.jpg 1982w
+    "
+      />
+      <img
+        alt="Laptop sitting on Laptop"
+        sizes="(max-width: 2880px) 100vw, 2880px"
+        src="/static/images/mh,w_2880.jpg"
+        srcSet="
+      /static/images/mh,w_992.jpg 992w,
+      /static/images/mh,w_1597.jpg 1597w,
+      /static/images/mh,w_2075.jpg 2075w,
+      /static/images/mh,w_2492.jpg 2492w,
+      /static/images/mh,w_2793.jpg 2793w,
+      /static/images/mh,w_2880.jpg 2880w
+    "
+      />
+    </picture>
+    <div
+      className="overlay"
+    >
+      <img
+        alt="logo"
+        sizes={null}
+        src="/static/images/logo.svg"
+        srcSet={null}
+        width="90px"
+      />
+    </div>
+  </section>
+  <section
+    className="section null dark"
+  >
+    <div
+      className="content"
+    >
+      <h1
+        className="heading null"
+        id={null}
+      >
+        Heading Level 1
+      </h1>
+      <h2
+        className="heading null"
+        id={null}
+      >
+        Heading Level 2
+      </h2>
+      <h3
+        className="heading null"
+        id={null}
+      >
+        Heading Level 3
+      </h3>
+      <h4
+        className="heading null"
+        id={null}
+      >
+        Heading Level 4
+      </h4>
+      <h5
+        className="heading null"
+        id={null}
+      >
+        Heading Level 5
+      </h5>
+      <h6
+        className="heading null"
+        id={null}
+      >
+        Heading Level 6
+      </h6>
+      <p
+        className="p null"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus nisi ut pretium ullamcorper. Fusce quis mauris congue, tempus justo sit amet, porttitor tortor. Sed commodo, sapien sed molestie vestibulum, arcu velit tincidunt massa, eget dignissim mauris diam at orci. Ut ornare molestie leo, a dapibus augue finibus sit amet. Morbi felis mauris, tincidunt sit amet nibh a, malesuada suscipit metus. Pellentesque nulla felis, tincidunt at auctor nec, auctor in lectus. Ut ac vehicula elit, sed congue justo. Aliquam luctus venenatis urna. Praesent malesuada pulvinar erat, feugiat pellentesque massa finibus eu.
+      </p>
+      <p
+        className="p null"
+      >
+        Quisque tincidunt eleifend pulvinar. Vestibulum sit amet nunc arcu. Etiam dolor orci, consequat vel suscipit sed, pulvinar sit amet nisl. Mauris eget vestibulum metus. Duis nibh orci, ultrices nec elementum at, fermentum quis massa. Phasellus dignissim congue nisi, a euismod felis rhoncus et. Duis lobortis, orci ut vehicula lacinia, quam dolor fringilla ipsum, a blandit nibh velit eget metus. Donec blandit viverra urna non pulvinar. Phasellus scelerisque semper arcu, congue posuere est blandit eu.
+      </p>
+      <p
+        className="p null"
+      >
+        Etiam pulvinar quam eros. Cras lacinia laoreet est, vitae cursus lorem fermentum nec. Nulla gravida efficitur lectus, in accumsan mauris ullamcorper in. Integer gravida, tortor egestas fermentum lobortis, justo nulla malesuada dui, non ultrices velit dui ut ligula. Pellentesque eu sollicitudin sapien. In hac habitasse platea dictumst. Donec velit eros, efficitur id aliquam eget, aliquet vitae est. Aliquam tellus urna, mollis at arcu vel, rutrum molestie magna. Donec sollicitudin tristique erat ac pulvinar. Sed at euismod nibh, vitae sollicitudin justo. Ut a leo sit amet odio semper porttitor. Morbi ut varius nunc. Sed mauris erat, rutrum in tempus eget, molestie sit amet libero. Morbi ac urna in diam vulputate semper.
+      </p>
+    </div>
+  </section>
+  <section
+    className="footer"
+  >
+    Footer
+  </section>
 </div>
 `;

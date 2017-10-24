@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Overlay renders correctly 1`] = `
+<div
+  className="overlay"
+>
+  Content Goes Here
+</div>
+`;
+
+exports[`Section renders correctly 1`] = `
+<section
+  className="section null false"
+>
+  <div
+    className="content"
+  >
+    Content Goes Here
+  </div>
+</section>
+`;
+
+exports[`SectionFullBleed renders correctly 1`] = `
+<section
+  className="section null"
+>
+  Content Goes Here
+</section>
+`;
