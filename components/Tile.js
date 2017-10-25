@@ -9,8 +9,8 @@ const Tile = ({ children }) => (
       @import './styles/variables.css';
 
       .tile {
-        display: block;
-        width: 100%;
+        display: flex;
+        flex: 1;
         padding: 1rem;
         border: 1px solid #000;
         background-color: tan;

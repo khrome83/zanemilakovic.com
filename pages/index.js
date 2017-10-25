@@ -66,7 +66,7 @@ const IndexPage = () => {
         </Overlay>
       </SectionFullBleed>
       <Section>
-        <Set mobile={1} tablet={2} desktop={4} gutter>
+        <Set desktop={4} tablet={2} mobile={1} gutter>
           <Tile>Quisque tincidunt eleifend pulvinar.</Tile>
           <Tile>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Tile>
           <Tile>Praesent malesuada pulvinar erat, feugiat pellentesque massa finibus eu.</Tile>

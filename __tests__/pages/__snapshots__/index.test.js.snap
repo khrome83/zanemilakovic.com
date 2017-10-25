@@ -60,6 +60,38 @@ exports[`Index Page Renders Correctly 1`] = `
     </div>
   </section>
   <section
+    className="section null false"
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="set gutter"
+      >
+        <div
+          className="tile"
+        >
+          Quisque tincidunt eleifend pulvinar.
+        </div>
+        <div
+          className="tile"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </div>
+        <div
+          className="tile"
+        >
+          Praesent malesuada pulvinar erat, feugiat pellentesque massa finibus eu.
+        </div>
+        <div
+          className="tile"
+        >
+          Morbi ac urna in diam vulputate semper.
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
     className="section null dark"
   >
     <div
