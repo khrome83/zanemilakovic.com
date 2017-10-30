@@ -1,9 +1,12 @@
 :root {
   /* Global Page Setup */
-  --page-background-color: #f7f5f0;
+  --page-bg-color: #f7f5f0;
+  --page-bg-color-dark: #A52A2A;
+  --page-bg-color-bold: #227BA8;
+  --page-bg-color-light: #E8C4B0;
   --page-font-color-dark: #000;
-  --page-font-color: #555;
-  --page-font-color-light: #fff;
+  --page-font-color: #231D17;
+  --page-font-color-light: #f7f5f0;
   --page-link-color: #b81c29;
   --font-color-framing: color(#fff a(0.5));
 
@@ -16,12 +19,13 @@
   --max-text-width: 45rem;
 
   /* Fluid Typograph */
-  --font-size-min: 0.9375rem;
-  --font-size-mid: 1.15625;
-  --font-size-max: 1.375rem;
-  --line-height-min: 1.6rem;
-  --line-height-mid: 2.175rem;
-  --line-height-max: 2.75rem;
+  --base-rem: 16px;
+  --font-size-min: 1.125rem;
+  --font-size-mid: 1.3125rem;
+  --font-size-max: 1.45rem;
+  --line-height-min: 1.6;
+  --line-height-mid: 1.75;
+  --line-height-max: 2;
   --heading-height-min: 1.4rem;
   --heading-height-mid: 1.55rem;
   --heading-height-max: 1.7rem;

@@ -2,7 +2,7 @@
 /* eslint-disable max-len */
 
 import Layout from '../layouts/default';
-import Section, { SectionFullBleed, Overlay } from '../components/Section';
+import Section, { SectionFullBleed, SectionAngled, Overlay } from '../components/Section';
 import Image, { Picture, Source } from '../components/Image';
 import { H1, H2, H3, H4, H5, H6 } from '../components/Heading';
 import P from '../components/P';
@@ -73,17 +73,24 @@ const IndexPage = () => {
           <Tile>Morbi ac urna in diam vulputate semper.</Tile>
         </Set>
       </Section>
-      <Section dark>
+      <Section>
         <H1>Heading Level 1</H1>
         <H2>Heading Level 2</H2>
         <H3>Heading Level 3</H3>
         <H4>Heading Level 4</H4>
         <H5>Heading Level 5</H5>
         <H6>Heading Level 6</H6>
-        <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus nisi ut pretium ullamcorper. Fusce quis mauris congue, tempus justo sit amet, porttitor tortor. Sed commodo, sapien sed molestie vestibulum, arcu velit tincidunt massa, eget dignissim mauris diam at orci. Ut ornare molestie leo, a dapibus augue finibus sit amet. Morbi felis mauris, tincidunt sit amet nibh a, malesuada suscipit metus. Pellentesque nulla felis, tincidunt at auctor nec, auctor in lectus. Ut ac vehicula elit, sed congue justo. Aliquam luctus venenatis urna. Praesent malesuada pulvinar erat, feugiat pellentesque massa finibus eu.</P>
-        <P>Quisque tincidunt eleifend pulvinar. Vestibulum sit amet nunc arcu. Etiam dolor orci, consequat vel suscipit sed, pulvinar sit amet nisl. Mauris eget vestibulum metus. Duis nibh orci, ultrices nec elementum at, fermentum quis massa. Phasellus dignissim congue nisi, a euismod felis rhoncus et. Duis lobortis, orci ut vehicula lacinia, quam dolor fringilla ipsum, a blandit nibh velit eget metus. Donec blandit viverra urna non pulvinar. Phasellus scelerisque semper arcu, congue posuere est blandit eu.</P>
-        <P>Etiam pulvinar quam eros. Cras lacinia laoreet est, vitae cursus lorem fermentum nec. Nulla gravida efficitur lectus, in accumsan mauris ullamcorper in. Integer gravida, tortor egestas fermentum lobortis, justo nulla malesuada dui, non ultrices velit dui ut ligula. Pellentesque eu sollicitudin sapien. In hac habitasse platea dictumst. Donec velit eros, efficitur id aliquam eget, aliquet vitae est. Aliquam tellus urna, mollis at arcu vel, rutrum molestie magna. Donec sollicitudin tristique erat ac pulvinar. Sed at euismod nibh, vitae sollicitudin justo. Ut a leo sit amet odio semper porttitor. Morbi ut varius nunc. Sed mauris erat, rutrum in tempus eget, molestie sit amet libero. Morbi ac urna in diam vulputate semper.</P>
       </Section>
+      <SectionAngled dark>
+        <P centered>Quisque tincidunt eleifend pulvinar. Vestibulum sit amet nunc arcu. Etiam dolor orci, consequat vel suscipit sed, pulvinar sit amet nisl.</P>
+      </SectionAngled>
+      <Section>
+        <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus nisi ut pretium ullamcorper. Fusce quis mauris congue, tempus justo sit amet, porttitor tortor. Sed commodo, sapien sed molestie vestibulum, arcu velit tincidunt massa, eget dignissim mauris diam at orci. Ut ornare molestie leo, a dapibus augue finibus sit amet. Morbi felis mauris, tincidunt sit amet nibh a, malesuada suscipit metus. Pellentesque nulla felis, tincidunt at auctor nec, auctor in lectus. Ut ac vehicula elit, sed congue justo. Aliquam luctus venenatis urna. Praesent malesuada pulvinar erat, feugiat pellentesque massa finibus eu.</P>
+        <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus nisi ut pretium ullamcorper. Fusce quis mauris congue, tempus justo sit amet, porttitor tortor. Sed commodo, sapien sed molestie vestibulum, arcu velit tincidunt massa, eget dignissim mauris diam at orci. Ut ornare molestie leo, a dapibus augue finibus sit amet. Morbi felis mauris, tincidunt sit amet nibh a, malesuada suscipit metus. Pellentesque nulla felis, tincidunt at auctor nec, auctor in lectus. Ut ac vehicula elit, sed congue justo. Aliquam luctus venenatis urna. Praesent malesuada pulvinar erat, feugiat pellentesque massa finibus eu.</P>
+      </Section>
+      <SectionAngled bold reversed skinny>
+        <H2 centered>This is a Heading</H2>
+      </SectionAngled>
     </Layout>
   );
 };

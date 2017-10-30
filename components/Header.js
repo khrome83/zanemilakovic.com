@@ -11,4 +11,4 @@ const Header = () => (
   </section>
 );
 
-export default Header;
+export { Header as default };

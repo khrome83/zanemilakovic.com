@@ -151,9 +151,17 @@ exports[`Index Page Renders Correctly 1`] = `
     </div>
   </section>
   <section
-    className="footer"
+    className="section footer false"
   >
-    Footer
+    <div
+      className="content"
+    >
+      <p
+        className="p null"
+      >
+        A Crafted Experience by Zane Milakovic © 2017
+      </p>
+    </div>
   </section>
 </div>
 `;

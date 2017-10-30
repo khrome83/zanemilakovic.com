@@ -62,15 +62,17 @@ export default class MyDocument extends Document {
 
           html {
             min-height: 100%;
-            background: var(--page-background-color);
+            background: var(--page-bg-color);
             color: var(--page-font-color);
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-            font-size: 1rem;
+            font-size: var(--base-rem);
           }
 
           body {
+            text-rendering: optimizeLegibility;
+            --webkit-font-smoothing: antialiased;
             font-size: var(--font-size-min);
 
             @media (--tablet-viewport) {
