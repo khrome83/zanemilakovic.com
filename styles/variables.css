@@ -1,9 +1,17 @@
 :root {
   /* Global Page Setup */
   --page-bg-color: #f7f5f0;
+  --page-bg-color-highlight: #ffffff;
+  --page-bg-color-shadow: #e4decd;
   --page-bg-color-dark: #A52A2A;
+  --page-bg-color-dark-highlight: #d65c5c;
+  --page-bg-color-dark-shadow: #511515;
   --page-bg-color-bold: #227BA8;
+  --page-bg-color-bold-highlight: #55afdd;
+  --page-bg-color-bold-shadow: #113e55;
   --page-bg-color-light: #E8C4B0;
+  --page-bg-color-light-highlight: #ffffff;
+  --page-bg-color-light-shadow: #e8c4b0;
   --page-font-color-dark: #000;
   --page-font-color: #231D17;
   --page-font-color-light: #f7f5f0;
@@ -32,6 +40,7 @@
   --heading-height-add: 0.5rem;
 
   /* Media Queries */
+  @custom-media --small-tablet-viewport (width >= 32rem);
   @custom-media --tablet-viewport (width >= 48rem);
   @custom-media --desktop-viewport (width >= 62rem);
 }

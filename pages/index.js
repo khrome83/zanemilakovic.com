@@ -5,7 +5,7 @@ import Layout from '../layouts/default';
 import Section, { SectionFullBleed, SectionAngled, Overlay } from '../components/Section';
 import Image, { Picture, Source } from '../components/Image';
 import { H1, H2, H3, H4, H5, H6 } from '../components/Heading';
-import P from '../components/P';
+import P, { Callout } from '../components/P';
 import Set from '../components/Set';
 import Tile from '../components/Tile';
 
@@ -73,6 +73,11 @@ const IndexPage = () => {
           <Tile>Morbi ac urna in diam vulputate semper.</Tile>
         </Set>
       </Section>
+      <SectionAngled dark>
+        <Callout src="/static/icons/forge.svg" alt="Forging Great Teams">
+          I am currently forging awesome development teams for a Fortune 25 company.
+        </Callout>
+      </SectionAngled>
       <Section>
         <H1>Heading Level 1</H1>
         <H2>Heading Level 2</H2>

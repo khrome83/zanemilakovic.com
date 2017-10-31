@@ -122,11 +122,14 @@ const SectionAngled = ({ children, className, dark, bold, light, reversed, skinn
 
         &:before {
           top: 0;
+          border-top: 3px solid var(--page-bg-color-shadow);
+          box-shadow: inset 0px 3px 9px -3px rgba(0,0,0,0.75);
         }
 
         &:after {
           transform: skewY(-1.5deg);
           bottom: 0;
+          border-bottom: 5px solid var(--page-bg-color-highlight);
         }
       }
 

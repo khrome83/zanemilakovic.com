@@ -9,7 +9,7 @@ const Social = ({ url, ...rest }) => (
 
       .social {
         display: inline-block;
-        background-color: brown;
+        background-color: var(--page-bg-color-dark);
         background-image: ${`url(${url})`};
         background-position: center;
         background-repeat: no-repeat;
@@ -21,7 +21,7 @@ const Social = ({ url, ...rest }) => (
 
         &:hover,
         &:active {
-          background-color: red;
+          background-color: var(--page-bg-color-dark-highlight);
         }
       }
     `}</style>
