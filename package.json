@@ -61,7 +61,7 @@
     "jest": "^21.2.1",
     "ramda": "^0.25.0",
     "react-test-renderer": "^16.0.0",
-    "webpack-bundle-analyzer": "^2.9.0"
+    "webpack-bundle-analyzer": "^3.3.2"
   },
   "postcss": {
     "plugins": {
