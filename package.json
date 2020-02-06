@@ -39,7 +39,7 @@
     "postcss-import": "^11.0.0",
     "postcss-load-plugins": "^2.3.0",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react-dom": "^16.0.1",
     "styled-jsx-plugin-postcss": "^0.1.0",
     "styled-jsx-plugin-stylelint": "^0.1.0"
   },
