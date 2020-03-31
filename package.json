@@ -34,7 +34,7 @@
   "homepage": "https://github.com/khrome83/zanemilakovic.com#readme",
   "dependencies": {
     "flow": "^0.2.3",
-    "next": "^4.0.5",
+    "next": "^9.3.2",
     "postcss-cssnext": "^3.0.2",
     "postcss-import": "^11.0.0",
     "postcss-load-plugins": "^2.3.0",
